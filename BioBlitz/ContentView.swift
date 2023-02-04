@@ -69,7 +69,7 @@ struct ContentView: View {
         }
         .padding()
         .fixedSize()
-        //.preferredColorScheme(.dark) //TODO: screw up preview and app run
+        
     }
 }
 

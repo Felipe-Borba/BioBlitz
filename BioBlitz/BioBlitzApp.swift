@@ -12,6 +12,7 @@ struct BioBlitzApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+            .preferredColorScheme(.dark)
         }
         .windowStyle(.hiddenTitleBar)
         .windowResizability(.contentSize) // macOS ventura (13) feature
